@@ -14,7 +14,7 @@ import com.example.demo.entitie.Retrait;
 import com.example.demo.entitie.Versement;
 
 @SpringBootApplication
-public class VVotreBBakkApplication implements CommandLineRunner {
+public class BankApplication implements CommandLineRunner {
 	
 	@Autowired
 	private CompteRepository compteRepository;
@@ -22,7 +22,7 @@ public class VVotreBBakkApplication implements CommandLineRunner {
 	private OperationRepository operationRepository;
 	
 	public static void main(String[] args) {
-		SpringApplication.run(VVotreBBakkApplication.class, args);
+		SpringApplication.run(BankApplication.class, args);
 	}
 
 	@Override
